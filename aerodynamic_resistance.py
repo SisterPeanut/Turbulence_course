@@ -66,8 +66,20 @@ for time_i in range(len(time)):
 
 # z0h = z0m/20  #R=20
 
-z0m = np.nanmedian(z0m_compute_array)  #0.0329
-h = 10*z0m # 32.9 cm
+# z0m = np.nanmedian(z0m_compute_array)  #0.0329
+# h = 10*z0m # 32.9 cm
+
+
+# h = 0.12 # 12 cm
+# z0m = h/10
+
+
+h = 0.6 # 60 cm
+z0m = h/10
+
+
+
+
 d = 0.65*h
 z0h = z0m/20 #  0.00177
 z=10
