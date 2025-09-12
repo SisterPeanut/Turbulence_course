@@ -67,7 +67,7 @@ for time_i in range(len(time)):
 # z0h = z0m/20  #R=20
 
 z0m = np.nanmedian(z0m_compute_array)  #0.0329
-h = 10*z0m
+h = 10*z0m # 32.9 cm
 d = 0.65*h
 z0h = z0m/20 #  0.00177
 z=10
@@ -83,6 +83,9 @@ Ra_array3[Ra_array3>300] = np.nan
 np.savetxt("aerodynamic resistance.txt", Ra_array3)
 
 
+# 12cm
+# 32.9 roughly 33
+# 60cm
 
 
 
